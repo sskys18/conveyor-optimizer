@@ -1,0 +1,13 @@
+# Conveyor Glass Layout Optimizer - Default Configuration
+
+# Case 1 settings
+W: 5500          # Conveyor width (mm)
+
+# Case 2 settings
+W_min: 5200      # Minimum width to consider (mm)
+W_max: 5500      # Maximum width to consider (mm)
+
+# Common settings
+top_n: 10        # Number of top layouts per mandatory type
+delta: 5         # Width tolerance from optimal (mm)
+dp_k: 20         # Max layouts per DP cell
